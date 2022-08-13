@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ftapps.goodshopping">
 
+    <uses-permission android:name="android.permission.SENSOR" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/gs_96x96"
@@ -9,6 +13,11 @@
         android:roundIcon="@drawable/gs_96x96"
         android:supportsRtl="true"
         android:theme="@style/Theme.GoodShopping">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4924620089567925~5037573690" />
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"

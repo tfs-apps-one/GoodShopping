@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="5dp"
-    android:background="@drawable/bak_grad"
+    android:background="#ffffff"
     android:paddingBottom="5dp"
     android:paddingLeft="5dp"
     android:paddingRight="5dp"
@@ -52,31 +52,32 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:layout_marginTop="2dp"
+            app:backgroundTint="@null"
             android:background="@drawable/btn_grad"
             android:elevation="0dp"
             android:onClick="onCalExec"
             android:text="@string/btn_cal"
             android:textColor="#767676"
-            android:textSize="24sp" />
+            android:textSize="24dp" />
 
         <EditText
             android:id="@+id/input_price"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:layout_alignParentTop="true"
-            android:layout_margin="2dp"
-            android:layout_marginBottom="2dp"
-            android:layout_marginEnd="2dp"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
+            android:layout_alignParentBottom="true"
             android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
             android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
             android:layout_toEndOf="@+id/text_price"
             android:layout_toRightOf="@+id/text_price"
             android:ems="10"
             android:inputType="number"
-            android:textSize="24sp" />
+            android:textSize="24dp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/text_price_unit"
@@ -86,7 +87,7 @@
             android:layout_toEndOf="@+id/input_price"
             android:layout_toRightOf="@+id/input_price"
             android:text="@string/text_price_unit"
-            android:textSize="22sp" />
+            android:textSize="22dp" />
 
         <TextView
             android:id="@+id/text_price"
@@ -99,7 +100,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="@string/text_price"
-            android:textSize="24sp" />
+            android:textSize="24dp" />
 
     </RelativeLayout>
 
@@ -113,7 +114,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/lay1"
         android:layout_marginTop="5dp"
-        android:background="#eeffee"
+        android:background="#FFF5E5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lay1">
@@ -122,47 +123,50 @@
             android:id="@+id/check_mdshop_1"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
             android:layout_toEndOf="@+id/text_shopinfo_1"
             android:layout_toRightOf="@+id/text_shopinfo_1"
-            android:text="〇〇% OFF" />
+            android:text="〇〇% OFF"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <CheckBox
             android:id="@+id/check_pointshop_1"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
+            android:layout_below="@+id/check_mdshop_1"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_below="@+id/check_mdshop_1"
             android:layout_toEndOf="@+id/text_shopinfo_1"
             android:layout_toRightOf="@+id/text_shopinfo_1"
-            android:text="ﾎﾟｲﾝﾄ〇〇倍" />
+            android:text="ﾎﾟｲﾝﾄ〇〇倍"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/input_shopprice_1"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:layout_below="@+id/check_pointshop_1"
-            android:layout_toLeftOf="@+id/text_shopunit_1"
+            android:layout_alignParentBottom="true"
             android:layout_toStartOf="@+id/text_shopunit_1"
+            android:layout_toLeftOf="@+id/text_shopunit_1"
             android:ems="10"
             android:inputType="number"
             android:maxLength="5"
-            android:textSize="17sp" />
+            android:textSize="17dp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/text_shopinfo_1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_above="@+id/text_shopprice_1"
-            android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_toLeftOf="@+id/input_shopprice_1"
             android:layout_toStartOf="@+id/input_shopprice_1"
+            android:layout_toLeftOf="@+id/input_shopprice_1"
             android:text="店舗情報１" />
 
         <TextView
@@ -176,7 +180,7 @@
             android:layout_toLeftOf="@+id/text_shopprice_1"
             android:layout_toStartOf="@+id/text_shopprice_1"
             android:text="損得結果１"
-            android:textSize="16sp" />
+            android:textSize="16dp" />
 
         <TextView
             android:id="@+id/text_shopprice_1"
@@ -193,10 +197,10 @@
             android:id="@+id/text_shopunit_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/check_pointshop_1"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_below="@+id/check_pointshop_1"
+            android:layout_alignParentBottom="true"
             android:text="@string/text_shopunit_1" />
 
     </RelativeLayout>
@@ -209,7 +213,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/lay_shop1"
         android:layout_marginTop="5dp"
-        android:background="#ffffee"
+        android:background="#FFECCC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lay_shop1">
@@ -218,47 +222,50 @@
             android:id="@+id/check_mdshop_2"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
             android:layout_toEndOf="@+id/text_shopinfo_2"
             android:layout_toRightOf="@+id/text_shopinfo_2"
-            android:text="〇〇% OFF" />
+            android:text="〇〇% OFF"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <CheckBox
             android:id="@+id/check_pointshop_2"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
+            android:layout_below="@+id/check_mdshop_2"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_below="@+id/check_mdshop_2"
             android:layout_toEndOf="@+id/text_shopinfo_2"
             android:layout_toRightOf="@+id/text_shopinfo_2"
-            android:text="ﾎﾟｲﾝﾄ〇〇倍" />
+            android:text="ﾎﾟｲﾝﾄ〇〇倍"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/input_shopprice_2"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:layout_below="@+id/check_pointshop_2"
-            android:layout_toLeftOf="@+id/text_shopunit_2"
+            android:layout_alignParentBottom="true"
             android:layout_toStartOf="@+id/text_shopunit_2"
+            android:layout_toLeftOf="@+id/text_shopunit_2"
             android:ems="10"
             android:inputType="number"
             android:maxLength="5"
-            android:textSize="17sp" />
+            android:textSize="17dp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/text_shopinfo_2"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_above="@+id/text_shopprice_2"
-            android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_toLeftOf="@+id/input_shopprice_2"
             android:layout_toStartOf="@+id/input_shopprice_2"
+            android:layout_toLeftOf="@+id/input_shopprice_2"
             android:text="店舗情報２" />
 
         <TextView
@@ -272,7 +279,7 @@
             android:layout_toLeftOf="@+id/text_shopprice_2"
             android:layout_toStartOf="@+id/text_shopprice_2"
             android:text="損得結果２"
-            android:textSize="16sp" />
+            android:textSize="16dp" />
 
         <TextView
             android:id="@+id/text_shopprice_2"
@@ -305,7 +312,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/lay_shop2"
         android:layout_marginTop="5dp"
-        android:background="#ffeeee"
+        android:background="#FFF5E5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lay_shop2">
@@ -314,61 +321,64 @@
             android:id="@+id/check_mdshop_3"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
             android:layout_toEndOf="@+id/text_shopinfo_3"
             android:layout_toRightOf="@+id/text_shopinfo_3"
-            android:text="〇〇% OFF" />
+            android:text="〇〇% OFF"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <CheckBox
             android:id="@+id/check_pointshop_3"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
+            android:layout_below="@+id/check_mdshop_3"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_below="@+id/check_mdshop_3"
             android:layout_toEndOf="@+id/text_shopinfo_3"
             android:layout_toRightOf="@+id/text_shopinfo_3"
-            android:text="ﾎﾟｲﾝﾄ〇〇倍" />
+            android:text="ﾎﾟｲﾝﾄ〇〇倍"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/input_shopprice_3"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:layout_below="@+id/check_pointshop_3"
-            android:layout_toLeftOf="@+id/text_shopunit_3"
+            android:layout_alignParentBottom="true"
             android:layout_toStartOf="@+id/text_shopunit_3"
+            android:layout_toLeftOf="@+id/text_shopunit_3"
             android:ems="10"
             android:inputType="number"
             android:maxLength="5"
-            android:textSize="17sp" />
+            android:textSize="17dp"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
             android:id="@+id/text_shopinfo_3"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_above="@+id/text_shopprice_3"
-            android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_toLeftOf="@+id/input_shopprice_3"
             android:layout_toStartOf="@+id/input_shopprice_3"
+            android:layout_toLeftOf="@+id/input_shopprice_3"
             android:text="店舗情報３" />
 
         <TextView
             android:id="@+id/text_shopresult_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
             android:layout_alignTop="@+id/input_shopprice_3"
-            android:layout_toLeftOf="@+id/text_shopprice_3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
             android:layout_toStartOf="@+id/text_shopprice_3"
+            android:layout_toLeftOf="@+id/text_shopprice_3"
             android:text="損得結果３"
-            android:textSize="16sp" />
+            android:textSize="16dp" />
 
         <TextView
             android:id="@+id/text_shopprice_3"

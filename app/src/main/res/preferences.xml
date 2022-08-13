@@ -1,87 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory android:title="@string/preference_title" >
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <EditTextPreference
-        android:key="shop1_name"
-        android:title="@string/shop1_name_ttl"
-        android:summary="@string/shop1_name_sum"
-        android:dialogTitle="@string/shop1_name_dlg" />
+    <PreferenceCategory
+        android:title="@string/preference_title"
+        tools:ignore="TextContrastCheck">
 
-    <EditTextPreference
-        android:key="shop1_md"
-        android:title="@string/shop1_md_ttl"
-        android:summary="@string/shop1_md_sum"
-        android:dialogTitle="@string/shop1_md_dlg"
-        android:inputType="number" />
+        <EditTextPreference
+            android:key="shop1_name"
+            android:title="@string/shop1_name_ttl"
+            android:summary="@string/shop1_name_sum"
+            android:dialogTitle="@string/shop1_name_dlg" />
 
-    <EditTextPreference
-        android:key="shop1_point"
-        android:title="@string/shop1_point_ttl"
-        android:summary="@string/shop1_point_sum"
-        android:dialogTitle="@string/shop1_point_dlg"
-        android:inputType="number" />
+        <EditTextPreference
+            android:key="shop1_md"
+            android:title="@string/shop1_md_ttl"
+            android:summary="@string/shop1_md_sum"
+            android:dialogTitle="@string/shop1_md_dlg"
+            android:inputType="number" />
 
-    <EditTextPreference
-        android:key="shop1_mult"
-        android:title="@string/shop1_mult_ttl"
-        android:summary="@string/shop1_mult_sum"
-        android:dialogTitle="@string/shop1_mult_dlg"
-        android:inputType="number" />
+        <EditTextPreference
+            android:key="shop1_point"
+            android:title="@string/shop1_point_ttl"
+            android:summary="@string/shop1_point_sum"
+            android:dialogTitle="@string/shop1_point_dlg"
+            android:inputType="number" />
 
-    <EditTextPreference
-        android:key="shop2_name"
-        android:title="@string/shop2_name_ttl"
-        android:summary="@string/shop2_name_sum"
-        android:dialogTitle="@string/shop2_name_dlg" />
+        <EditTextPreference
+            android:key="shop1_mult"
+            android:title="@string/shop1_mult_ttl"
+            android:summary="@string/shop1_mult_sum"
+            android:dialogTitle="@string/shop1_mult_dlg"
+            android:inputType="number" />
 
-    <EditTextPreference
-        android:key="shop2_md"
-        android:title="@string/shop2_md_ttl"
-        android:summary="@string/shop2_md_sum"
-        android:dialogTitle="@string/shop2_md_dlg"
-        android:inputType="number" />
+        <EditTextPreference
+            android:key="shop2_name"
+            android:title="@string/shop2_name_ttl"
+            android:summary="@string/shop2_name_sum"
+            android:dialogTitle="@string/shop2_name_dlg" />
 
-    <EditTextPreference
-        android:key="shop2_point"
-        android:title="@string/shop2_point_ttl"
-        android:summary="@string/shop2_point_sum"
-        android:dialogTitle="@string/shop2_point_dlg"
-        android:inputType="number" />
+        <EditTextPreference
+            android:key="shop2_md"
+            android:title="@string/shop2_md_ttl"
+            android:summary="@string/shop2_md_sum"
+            android:dialogTitle="@string/shop2_md_dlg"
+            android:inputType="number" />
 
-    <EditTextPreference
-        android:key="shop2_mult"
-        android:title="@string/shop2_mult_ttl"
-        android:summary="@string/shop2_mult_sum"
-        android:dialogTitle="@string/shop2_mult_dlg"
-        android:inputType="number" />
+        <EditTextPreference
+            android:key="shop2_point"
+            android:title="@string/shop2_point_ttl"
+            android:summary="@string/shop2_point_sum"
+            android:dialogTitle="@string/shop2_point_dlg"
+            android:inputType="number" />
 
-    <EditTextPreference
-        android:key="shop3_name"
-        android:title="@string/shop3_name_ttl"
-        android:summary="@string/shop3_name_sum"
-        android:dialogTitle="@string/shop3_name_dlg" />
+        <EditTextPreference
+            android:key="shop2_mult"
+            android:title="@string/shop2_mult_ttl"
+            android:summary="@string/shop2_mult_sum"
+            android:dialogTitle="@string/shop2_mult_dlg"
+            android:inputType="number" />
 
-    <EditTextPreference
-        android:key="shop3_md"
-        android:title="@string/shop3_md_ttl"
-        android:summary="@string/shop3_md_sum"
-        android:dialogTitle="@string/shop3_md_dlg"
-        android:inputType="number" />
+        <EditTextPreference
+            android:key="shop3_name"
+            android:title="@string/shop3_name_ttl"
+            android:summary="@string/shop3_name_sum"
+            android:dialogTitle="@string/shop3_name_dlg" />
 
-    <EditTextPreference
-        android:key="shop3_point"
-        android:title="@string/shop3_point_ttl"
-        android:summary="@string/shop3_point_sum"
-        android:dialogTitle="@string/shop3_point_dlg"
-        android:inputType="number" />
+        <EditTextPreference
+            android:key="shop3_md"
+            android:title="@string/shop3_md_ttl"
+            android:summary="@string/shop3_md_sum"
+            android:dialogTitle="@string/shop3_md_dlg"
+            android:inputType="number" />
 
-    <EditTextPreference
-        android:key="shop3_mult"
-        android:title="@string/shop3_mult_ttl"
-        android:summary="@string/shop3_mult_sum"
-        android:dialogTitle="@string/shop3_mult_dlg"
-        android:inputType="number" />
+        <EditTextPreference
+            android:key="shop3_point"
+            android:title="@string/shop3_point_ttl"
+            android:summary="@string/shop3_point_sum"
+            android:dialogTitle="@string/shop3_point_dlg"
+            android:inputType="number" />
+
+        <EditTextPreference
+            android:key="shop3_mult"
+            android:title="@string/shop3_mult_ttl"
+            android:summary="@string/shop3_mult_sum"
+            android:dialogTitle="@string/shop3_mult_dlg"
+            android:inputType="number" />
 
     </PreferenceCategory>
 </PreferenceScreen>

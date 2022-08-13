@@ -1,77 +1,69 @@
 <resources>
-    <string name="app_name">����������聙</string>
-    <string name="action_settings">�X�܏��o�^</string>
-    
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="app_name">☆買い物上手☆</string>
+    <string name="action_settings">店舗情報登録</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    
-        <string name="preference_title">�ݒ胊�X�g</string>
+    <string name="preference_title">設定リスト</string>
 
-    <string name="shop1_name_ttl">���X�܂P�̖���</string>
-    <string name="shop1_name_sum"> �X�܂P�̖��̂�o�^\n ��jABC�X�[�p�[</string>
-    <string name="shop1_name_dlg">�X�܂P�̖��̓o�^</string>
+    <string name="shop1_name_ttl">◇店舗１の名称</string>
+    <string name="shop1_name_sum"> 店舗１の名称を登録\n 例）ABCスーパー</string>
+    <string name="shop1_name_dlg">店舗１の名称登録</string>
 
-    <string name="shop1_md_ttl">���X�܂P�̊����i����OFF�j</string>
-    <string name="shop1_md_sum"> �X�܂P�̊�������o�^\n ��j10%OFF�̏ꍇ�A10�����</string>
-    <string name="shop1_md_dlg">�X�܂P�̊����o�^\n(�L���͈́F0�`99)</string>
+    <string name="shop1_md_ttl">◇店舗１の割引（○％OFF）</string>
+    <string name="shop1_md_sum"> 店舗１の割引数を登録\n 例）10%OFFの場合、10を入力</string>
+    <string name="shop1_md_dlg">店舗１の割引登録\n(有効範囲：0～99)</string>
 
-    <string name="shop1_point_ttl">���X�܂P���߲�ĒP���i�߲�ā^�~�j</string>
-    <string name="shop1_point_sum"> �X�܂P���߲�ĒP����o�^\n ��j200�~��1�|�C���g�̏ꍇ�A200�����</string>
-    <string name="shop1_point_dlg">�X�܂P���߲�ĒP���o�^\n(�L���͈́F0�`999)</string>
+    <string name="shop1_point_ttl">◇店舗１のﾎﾟｲﾝﾄ単価（ﾎﾟｲﾝﾄ／円）</string>
+    <string name="shop1_point_sum"> 店舗１のﾎﾟｲﾝﾄ単価を登録\n 例）200円で1ポイントの場合、200を入力</string>
+    <string name="shop1_point_dlg">店舗１のﾎﾟｲﾝﾄ単価登録\n(有効範囲：0～999)</string>
 
-    <string name="shop1_mult_ttl">���X�܂P���߲�Ĕ{��</string>
-    <string name="shop1_mult_sum"> �X�܂P���߲�Ĕ{����o�^\n ��j5�{�̏ꍇ�A5�����</string>
-    <string name="shop1_mult_dlg">�X�܂P���߲�Ĕ{���o�^\n(�L���͈́F0�`99)</string>
+    <string name="shop1_mult_ttl">◇店舗１のﾎﾟｲﾝﾄ倍数</string>
+    <string name="shop1_mult_sum"> 店舗１のﾎﾟｲﾝﾄ倍数を登録\n 例）5倍の場合、5を入力</string>
+    <string name="shop1_mult_dlg">店舗１のﾎﾟｲﾝﾄ倍数登録\n(有効範囲：0～99)</string>
 
-    <string name="shop2_name_ttl">���X�܂Q�̖���</string>
-    <string name="shop2_name_sum"> �X�܂Q�̖��̂�o�^\n ��jABC�X�[�p�[</string>
-    <string name="shop2_name_dlg">�X�܂Q�̖��̓o�^</string>
+    <string name="shop2_name_ttl">◆店舗２の名称</string>
+    <string name="shop2_name_sum"> 店舗２の名称を登録\n 例）ABCスーパー</string>
+    <string name="shop2_name_dlg">店舗２の名称登録</string>
 
-    <string name="shop2_md_ttl">���X�܂Q�̊����i����OFF�j</string>
-    <string name="shop2_md_sum"> �X�܂Q�̊�������o�^\n ��j10%OFF�̏ꍇ�A10�����</string>
-    <string name="shop2_md_dlg">�X�܂Q�̊����o�^\n(�L���͈́F0�`99)</string>
+    <string name="shop2_md_ttl">◆店舗２の割引（○％OFF）</string>
+    <string name="shop2_md_sum"> 店舗２の割引数を登録\n 例）10%OFFの場合、10を入力</string>
+    <string name="shop2_md_dlg">店舗２の割引登録\n(有効範囲：0～99)</string>
 
-    <string name="shop2_point_ttl">���X�܂Q���߲�ĒP���i�߲�ā^�~�j</string>
-    <string name="shop2_point_sum"> �X�܂Q���߲�ĒP����o�^\n ��j200�~��1�|�C���g�̏ꍇ�A200�����</string>
-    <string name="shop2_point_dlg">�X�܂Q���߲�ĒP���o�^\n(�L���͈́F0�`999)</string>
+    <string name="shop2_point_ttl">◆店舗２のﾎﾟｲﾝﾄ単価（ﾎﾟｲﾝﾄ／円）</string>
+    <string name="shop2_point_sum"> 店舗２のﾎﾟｲﾝﾄ単価を登録\n 例）200円で1ポイントの場合、200を入力</string>
+    <string name="shop2_point_dlg">店舗２のﾎﾟｲﾝﾄ単価登録\n(有効範囲：0～999)</string>
 
-    <string name="shop2_mult_ttl">���X�܂Q���߲�Ĕ{��</string>
-    <string name="shop2_mult_sum"> �X�܂Q���߲�Ĕ{����o�^\n ��j5�{�̏ꍇ�A5�����</string>
-    <string name="shop2_mult_dlg">�X�܂Q���߲�Ĕ{���o�^\n(�L���͈́F0�`99)</string>
+    <string name="shop2_mult_ttl">◆店舗２のﾎﾟｲﾝﾄ倍数</string>
+    <string name="shop2_mult_sum"> 店舗２のﾎﾟｲﾝﾄ倍数を登録\n 例）5倍の場合、5を入力</string>
+    <string name="shop2_mult_dlg">店舗２のﾎﾟｲﾝﾄ倍数登録\n(有効範囲：0～99)</string>
 
-    <string name="shop3_name_ttl">���X�܂R�̖���</string>
-    <string name="shop3_name_sum"> �X�܂R�̖��̂�o�^\n ��jABC�X�[�p�[</string>
-    <string name="shop3_name_dlg">�X�܂R�̖��̓o�^</string>
+    <string name="shop3_name_ttl">◇店舗３の名称</string>
+    <string name="shop3_name_sum"> 店舗３の名称を登録\n 例）ABCスーパー</string>
+    <string name="shop3_name_dlg">店舗３の名称登録</string>
 
-    <string name="shop3_md_ttl">���X�܂R�̊����i����OFF�j</string>
-    <string name="shop3_md_sum"> �X�܂R�̊�������o�^\n ��j10%OFF�̏ꍇ�A10�����</string>
-    <string name="shop3_md_dlg">�X�܂R�̊����o�^\n(�L���͈́F0�`99)</string>
+    <string name="shop3_md_ttl">◇店舗３の割引（○％OFF）</string>
+    <string name="shop3_md_sum"> 店舗３の割引数を登録\n 例）10%OFFの場合、10を入力</string>
+    <string name="shop3_md_dlg">店舗３の割引登録\n(有効範囲：0～99)</string>
 
-    <string name="shop3_point_ttl">���X�܂R���߲�ĒP���i�߲�ā^�~�j</string>
-    <string name="shop3_point_sum"> �X�܂R���߲�ĒP����o�^\n ��j200�~��1�|�C���g�̏ꍇ�A200�����</string>
-    <string name="shop3_point_dlg">�X�܂R���߲�ĒP���o�^\n(�L���͈́F0�`999)</string>
+    <string name="shop3_point_ttl">◇店舗３のﾎﾟｲﾝﾄ単価（ﾎﾟｲﾝﾄ／円）</string>
+    <string name="shop3_point_sum"> 店舗３のﾎﾟｲﾝﾄ単価を登録\n 例）200円で1ポイントの場合、200を入力</string>
+    <string name="shop3_point_dlg">店舗３のﾎﾟｲﾝﾄ単価登録\n(有効範囲：0～999)</string>
 
-    <string name="shop3_mult_ttl">���X�܂R���߲�Ĕ{��</string>
-    <string name="shop3_mult_sum"> �X�܂R���߲�Ĕ{����o�^\n ��j5�{�̏ꍇ�A5�����</string>
-    <string name="shop3_mult_dlg">�X�܂R���߲�Ĕ{���o�^\n(�L���͈́F0�`99)</string>
+    <string name="shop3_mult_ttl">◇店舗３のﾎﾟｲﾝﾄ倍数</string>
+    <string name="shop3_mult_sum"> 店舗３のﾎﾟｲﾝﾄ倍数を登録\n 例）5倍の場合、5を入力</string>
+    <string name="shop3_mult_dlg">店舗３のﾎﾟｲﾝﾄ倍数登録\n(有効範囲：0～99)</string>
 
 
-    <string name="btn_cal">�v�Z</string>
-    <string name="text_price">���z</string>
-    <string name="text_price_unit">\n�~</string>
+    <string name="btn_cal">計算</string>
+    <string name="text_price">金額</string>
+    <string name="text_price_unit">\n円</string>
 
-    <string name="text_shopprice_1"> �x�����z\n(��) </string>
-    <string name="text_shopunit_1">\n�~</string>
+    <string name="text_shopprice_1"> 支払金額\n(個別) </string>
+    <string name="text_shopunit_1">\n円</string>
 
-    <string name="text_shopprice_2"> �x�����z\n(��) </string>
-    <string name="text_shopunit_2">\n�~</string>
+    <string name="text_shopprice_2"> 支払金額\n(個別) </string>
+    <string name="text_shopunit_2">\n円</string>
 
-    <string name="text_shopprice_3"> �x�����z\n(��) </string>
-    <string name="text_shopunit_3">\n�~</string>
+    <string name="text_shopprice_3"> 支払金額\n(個別) </string>
+    <string name="text_shopunit_3">\n円</string>
+
 </resources>

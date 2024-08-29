@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ftapps.goodshopping">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.SENSOR" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -8,11 +8,14 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/gs_96x96"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/gs_128x128"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/gs_96x96"
+        android:roundIcon="@drawable/gs_128x128"
         android:supportsRtl="true"
-        android:theme="@style/Theme.GoodShopping">
+        android:theme="@style/Theme.GoodShopping"
+        tools:targetApi="31">
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
@@ -20,9 +23,8 @@
 
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:exported="true"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
